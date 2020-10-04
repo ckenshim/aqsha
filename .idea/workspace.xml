@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b5975a5-a13b-4822-aea5-74db1747fbe6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1iPONwcThVm7PkBQ2QRrMJQpX9V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build helloworld.go">
+    <configuration name="go build helloworld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/helloworld.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestIndexHandler in helloworld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/helloworld_test.go" />
+      <pattern value="^\QTestIndexHandler\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helloworld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/helloworld_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build helloworld.go" />
+        <item itemvalue="Go Test.helloworld_test.go" />
+        <item itemvalue="Go Test.TestIndexHandler in helloworld_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b5975a5-a13b-4822-aea5-74db1747fbe6" name="Default Changelist" comment="" />
+      <created>1601805725138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601805725138</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="784" y="215" width="400" height="684" key="#GOPATH" timestamp="1601806154505">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="784" y="215" width="400" height="684" key="#GOPATH/58.27.1862.1053@58.27.1862.1053" timestamp="1601806154505" />
+    <state x="767" y="315" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601807114178">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="767" y="315" width="424" height="491" key="FileChooserDialogImpl/58.27.1862.1053@58.27.1862.1053" timestamp="1601807114178" />
+    <state width="1816" height="275" key="GridCell.Tab.0.bottom" timestamp="1601809344538">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="275" key="GridCell.Tab.0.bottom/58.27.1862.1053@58.27.1862.1053" timestamp="1601809344538" />
+    <state width="1816" height="275" key="GridCell.Tab.0.center" timestamp="1601809344536">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="275" key="GridCell.Tab.0.center/58.27.1862.1053@58.27.1862.1053" timestamp="1601809344536" />
+    <state width="1816" height="275" key="GridCell.Tab.0.left" timestamp="1601809344535">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="275" key="GridCell.Tab.0.left/58.27.1862.1053@58.27.1862.1053" timestamp="1601809344535" />
+    <state width="1816" height="275" key="GridCell.Tab.0.right" timestamp="1601809344537">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="275" key="GridCell.Tab.0.right/58.27.1862.1053@58.27.1862.1053" timestamp="1601809344537" />
+    <state x="478" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1601807122471">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="478" y="188" width="1022" height="737" key="SettingsEditor/58.27.1862.1053@58.27.1862.1053" timestamp="1601807122471" />
+  </component>
+</project>
