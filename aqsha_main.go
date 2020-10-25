@@ -1,37 +1,20 @@
-// Copyright 2019 Google LLC
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     https://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
 
-// [START gae_go111_app]
-
-// Sample helloworld is an App Engine app.
 package main
 
-// [START import]
 import (
+	"fmt"
 	"html/template"
 	"log"
 	"net/http"
 	"os"
 )
 
-type Page struct {
-	Title string
-	Body  []byte
+type PhilPage struct {
+	Ticker string
+	RequestStatus string
+	KeyMetricsArr []KeyMetrics
 }
 
-// [END import]
-// [START main_func]
 
 func main() {
 	http.HandleFunc("/", indexHandler)
@@ -48,7 +31,6 @@ func main() {
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		log.Fatal(err)
 	}
-	// [END setting_port]
 }
 
 // [END main_func]
@@ -61,10 +43,8 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	t, _ := template.ParseFiles("pages/main.html")
-	p := &Page{Title: "title"}
 
-	t.Execute(w, p)
+	http.ServeFile(w, r, "pages/main.html")
 }
 
 func philTownHandler(w http.ResponseWriter, r *http.Request) {
@@ -72,11 +52,41 @@ func philTownHandler(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	t, _ := template.ParseFiles("pages/philtown.html")
-	p := &Page{Title: "title"}
+	ticker := r.FormValue("ticker")
+	fmpkey := r.FormValue("fmpkey")
+	log.Printf("Request for %s with key %s", ticker, fmpkey)
 
-	t.Execute(w, p)
+	doCalc := false
+	if ticker != "" && fmpkey != "" {
+		doCalc = true
+	}
+
+	var page PhilPage
+	if doCalc {
+		page = calculateBigFiveNumbers(ticker, fmpkey)
+	}
+
+	t, _ := template.ParseFiles("pages/philtown.html")
+
+	_ = t.Execute(w, page)
 }
 
-// [END indexHandler]
-// [END gae_go111_app]
+func calculateBigFiveNumbers(ticker string, fmpkey string) PhilPage {
+
+	metricsJson := getKeyMetrics(ticker, fmpkey)
+	keyMetrics, err := parseKeyMetrics(metricsJson)
+
+	if err != nil {
+		log.Print(err)
+	}
+	page := PhilPage{Ticker: ticker}
+
+	if len(keyMetrics) == 0 {
+		page.RequestStatus = fmt.Sprintf("Could not acquire results for %v", ticker)
+	} else {
+		page.RequestStatus = ""
+		page.KeyMetricsArr = keyMetrics
+	}
+
+	return page
+}

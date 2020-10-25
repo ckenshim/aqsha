@@ -6,17 +6,18 @@ import (
 	"net/http"
 )
 
-func getKeyMetrics(ticker string, apikey string) string {
+func getKeyMetrics(ticker string, apikey string) []byte {
 	url := keyMetricsUrl(ticker, apikey, 10)
 	resp, err := http.Get(url)
 	if err != nil {
+		fmt.Printf(err.Error())
 		// handle errors
 	}
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
 
-	return string(body)
+	return body
 }
 
 func keyMetricsUrl(ticker string, apiKey string, limit int) string{

@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Phil town</title>
+    <title>Phil Town</title>
 </head>
 <body>
-phil town page
+<header>
+    <h1>Simple tool of an Investor</h1>
+    <nav>
+        <p><a href="/">Home</a> | <a href="/phil">Phil Town's method</a> | <a href="#">About</a> | <a href="#">Contact</a></p>
+    </nav>
+</header>
+
+<form action="" name="phil_eval" method="GET">
+    <div>
+        <label for="ticker">Ticker symbol: </label>
+        <input id="ticker" name="ticker" type="text" placeholder="OZK" required>
+    </div>
+    <div class="verticalgap" style="height:10px"></div>
+
+    <div>
+        <label for="fmpkey">FmpCloud API Key: </label>
+        <input id="fmpkey" name="fmpkey" type="text" placeholder="77dc5ase8fbed4514a3d8e6f5370438" required>
+    </div>
+    <div class="verticalgap" style="height:10px"></div>
+
+    <div>
+    <input type="submit" value="Submit"/>
+    </div>
+</form>
+<hr>
+
+<h4>Big Five Numbers</h4>
+<div>
+    <div>{{.Ticker}}</div>
+    <div>Results: </div>
+</div>
+
+<footer>
+
+</footer>
+
 </body>
 </html>

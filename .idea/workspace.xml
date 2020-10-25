@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c17f6dcb-4968-4f24-9847-888c784358b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/financials.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financials_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqsha_main.go" beforeDir="false" afterPath="$PROJECT_DIR$/aqsha_main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmpcloud.go" beforeDir="false" afterPath="$PROJECT_DIR$/fmpcloud.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmpcloud_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/fmpcloud_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/philtown.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/philtown.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1iUhezMxTBwsE9NP3rJvlaZmn7b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/sample_test_files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build aqsha_main.go">
+    <configuration name="go build aqsha_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/aqsha_main.go" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build aqsha_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/aqsha_main.go" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestKeyMetricsParser in aqsha" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="aqsha" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestKeyMetricsParser\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestKeyMetricsParser in helloworld" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestKeyMetricsParser\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestKeyMetricsUrl in helloworld" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestKeyMetricsUrl\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test aqsha" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aqsha" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build aqsha_main.go" />
+        <item itemvalue="Go Test.TestKeyMetricsParser in aqsha" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c17f6dcb-4968-4f24-9847-888c784358b7" name="Default Changelist" comment="" />
+      <created>1601968177828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601968177828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="747" y="298" key="#xdebugger.evaluate" timestamp="1601970536578">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="747" y="298" key="#xdebugger.evaluate/58.27.1862.1053@58.27.1862.1053" timestamp="1601970536578" />
+    <state width="1816" height="274" key="GridCell.Tab.0.bottom" timestamp="1603618880907">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="2514" height="283" key="GridCell.Tab.0.bottom/0.1080.1920.1080/58.0.2502.1080@58.0.2502.1080" timestamp="1602701955578" />
+    <state width="2514" height="283" key="GridCell.Tab.0.bottom/58.0.2502.2160@58.0.2502.2160" timestamp="1602165846947" />
+    <state width="1816" height="274" key="GridCell.Tab.0.bottom/58.27.1862.1053@58.27.1862.1053" timestamp="1603618880907" />
+    <state width="1816" height="274" key="GridCell.Tab.0.center" timestamp="1603618880907">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="2514" height="283" key="GridCell.Tab.0.center/0.1080.1920.1080/58.0.2502.1080@58.0.2502.1080" timestamp="1602701955578" />
+    <state width="2514" height="283" key="GridCell.Tab.0.center/58.0.2502.2160@58.0.2502.2160" timestamp="1602165846946" />
+    <state width="1816" height="274" key="GridCell.Tab.0.center/58.27.1862.1053@58.27.1862.1053" timestamp="1603618880907" />
+    <state width="1816" height="274" key="GridCell.Tab.0.left" timestamp="1603618880906">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="2514" height="283" key="GridCell.Tab.0.left/0.1080.1920.1080/58.0.2502.1080@58.0.2502.1080" timestamp="1602701955578" />
+    <state width="2514" height="283" key="GridCell.Tab.0.left/58.0.2502.2160@58.0.2502.2160" timestamp="1602165846946" />
+    <state width="1816" height="274" key="GridCell.Tab.0.left/58.27.1862.1053@58.27.1862.1053" timestamp="1603618880906" />
+    <state width="1816" height="274" key="GridCell.Tab.0.right" timestamp="1603618880907">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="2514" height="283" key="GridCell.Tab.0.right/0.1080.1920.1080/58.0.2502.1080@58.0.2502.1080" timestamp="1602701955578" />
+    <state width="2514" height="283" key="GridCell.Tab.0.right/58.0.2502.2160@58.0.2502.2160" timestamp="1602165846947" />
+    <state width="1816" height="274" key="GridCell.Tab.0.right/58.27.1862.1053@58.27.1862.1053" timestamp="1603618880907" />
+    <state width="1816" height="340" key="GridCell.Tab.1.bottom" timestamp="1601974311268">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="340" key="GridCell.Tab.1.bottom/58.27.1862.1053@58.27.1862.1053" timestamp="1601974311268" />
+    <state width="1816" height="340" key="GridCell.Tab.1.center" timestamp="1601974311267">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="340" key="GridCell.Tab.1.center/58.27.1862.1053@58.27.1862.1053" timestamp="1601974311267" />
+    <state width="1816" height="340" key="GridCell.Tab.1.left" timestamp="1601974311267">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="340" key="GridCell.Tab.1.left/58.27.1862.1053@58.27.1862.1053" timestamp="1601974311267" />
+    <state width="1816" height="340" key="GridCell.Tab.1.right" timestamp="1601974311268">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="1816" height="340" key="GridCell.Tab.1.right/58.27.1862.1053@58.27.1862.1053" timestamp="1601974311268" />
+    <state width="931" height="526" key="XDebugger.FullValuePopup" timestamp="1601973635857">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state width="931" height="526" key="XDebugger.FullValuePopup/58.27.1862.1053@58.27.1862.1053" timestamp="1601973635857" />
+  </component>
+</project>

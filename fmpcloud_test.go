@@ -14,8 +14,8 @@ func TestKeyMetricsUrl(t *testing.T){
 	}
 }
 
-func TestGetKeyMetrics(t *testing.T){
-	body := getKeyMetrics("AAPL", "77dc5e892fbed4514a3ed8e6f5370438")
-
-	t.Errorf(body)
-}
+//func TestGetKeyMetrics(t *testing.T){
+//	body := getKeyMetrics("AAPL", "77dc5e892fbed4514a3ed8e6f5370438")
+//
+//	t.Errorf(body)
+//}
